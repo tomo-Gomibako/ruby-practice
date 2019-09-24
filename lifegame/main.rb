@@ -1,4 +1,4 @@
-require "#{__dir__}/modules/Map"
+require_relative "./modules/Map"
 
 map = Map.new(15, 15)
 

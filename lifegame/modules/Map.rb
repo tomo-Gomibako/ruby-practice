@@ -1,4 +1,4 @@
-require "#{__dir__}/Cell"
+require_relative "./Cell"
 
 class Map
 	def initialize(width, height)
